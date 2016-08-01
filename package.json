@@ -1,7 +1,7 @@
 {
   "name": "grunt-webpack",
   "description": "Use webpack with grunt.",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "homepage": "https://github.com/webpack/grunt-webpack",
   "author": {
     "name": "Tobias Koppers @sokra"
@@ -17,8 +17,8 @@
     "lodash": "^4.0.0"
   },
   "peerDependencies": {
-    "webpack": "1.x",
-    "webpack-dev-server": "1.x"
+    "webpack": "*",
+    "webpack-dev-server": "*"
   },
   "license": "MIT",
   "keywords": [
@@ -33,7 +33,7 @@
     "eslint": "^3.1.1",
     "grunt": "^1.0.0",
     "jasmine": "2.3.2",
-    "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "*",
+    "webpack-dev-server": "*"
   }
 }
